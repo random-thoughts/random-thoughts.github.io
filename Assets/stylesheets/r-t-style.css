@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(186, 234, 236);
+
+}
+
+img {float: left;
+    margin: 3%;
+
+}
+
+
+h1 {
+     color: rgb(9, 236, 236);
+     background-color: black;
+     text-align: center;
+}
+
+
+
+h3 {
+    color: rgb(239, 243, 12);
+    background-color: black;
+    text-align: center;
+}
+
+
+p {
+    font-size: 20px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}   
