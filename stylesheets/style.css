@@ -42,7 +42,7 @@ li a:hover {
  	/* Remove borders */
  	outline: none;
  	/* Remove outline */
- 	background-color: red;
+ 	background-color: rgb(183, 0, 255);
  	/* Set a background color */
  	color: white;
  	/* Text color */
