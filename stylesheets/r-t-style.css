@@ -1,6 +1,6 @@
 body {
     background-color: rgb(186, 234, 236);
-    background-image: linear-gradient(rgb(186, 234, 236)rgb(7, 193, 214 ));
+   background-image: -moz-linear-gradient(rgb(186, 234, 236)rgb(78, 89, 194));
 }
 
 img {float: left;
