@@ -107,7 +107,9 @@ p {
 	font-size: 20px;
 	text-align: center;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
-.row {
+}
+
+	.row {
 	display: flex;
 }
 
@@ -116,7 +118,7 @@ p {
 	padding: 5px;
 }
 	
-}   
+   
 
 footer {
 
