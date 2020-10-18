@@ -78,6 +78,15 @@ p {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 } 
 
+aside {
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+    font-style: normal;
+    background-color: rgb(98, 240, 15);
+}
+
 footer {
     color: black;
     background-color: rgb(11, 218, 245);
