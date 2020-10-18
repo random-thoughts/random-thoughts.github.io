@@ -63,7 +63,7 @@ ul#nav li a:hover {
  	/* Remove borders */
  	outline: none;
  	/* Remove outline */
- 	background-color: rgb(183, 0, 255);
+ 	background-color: rgb(169, 113, 243);
  	/* Set a background color */
  	color: white;
  	/* Text color */
@@ -81,7 +81,7 @@ ul#nav li a:hover {
  	background-color: #555;
  	/* Add a dark-grey background on hover */
  }
- 
+
 img {
 	display: block;
 	margin-left: auto;
