@@ -72,7 +72,7 @@ p {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
-.id {
+#mur {
     display: block;
     margin-left: auto;
     margin-right: auto;
