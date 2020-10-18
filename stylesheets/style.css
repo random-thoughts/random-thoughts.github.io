@@ -116,7 +116,11 @@ h1 {
      text-align: center;
 }
 
-
+h2 {
+	color: rgb(177, 241, 103);
+	background-color: #000;
+	text-align: center;
+}
 
 h3 {
     color: rgb(239, 243, 12);
