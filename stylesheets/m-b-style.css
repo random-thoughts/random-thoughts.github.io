@@ -9,6 +9,11 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    color: rgb(177, 241, 103);
+    background-color: #000;
+    text-align: center;
+}
 
 
 h3 {
@@ -75,9 +80,8 @@ footer {
 
 
  .row {
-     display: inline-block;
-     margin-left: auto;
-     margin-right: auto;
+     display: flex;
+    
  }
 
  .column {
