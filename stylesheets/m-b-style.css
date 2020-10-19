@@ -72,12 +72,6 @@ p {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
-footer {
-    color: black;
-    background-color: rgb(11, 218, 245);
-    font-size: medium;
-}
-
 
  .row {
      display: flex;
@@ -88,3 +82,10 @@ footer {
      flex: 45%;
      padding: 5px;
  }
+
+footer {
+    color: black;
+    background-color: rgb(11, 218, 245);
+    font-size: medium;
+    text-align: center;
+}
