@@ -129,43 +129,120 @@
   by the name of Johnny Hagerman. I have pictures of a few examples of his work. The largest is <a href="https://sw.edu/the-jack-tales-wall/">The Jack Tales Wall</a>
   at Southwest Viginia Community College. This work of art is two stories tall and quite wide. </p>
 <article> 
-  <h2>The Jack Tales Wall at Southwest Virginia Community College</h2>
+    <h2 style="text-align:center">The Jack Tales Wall Slideshow Gallery</h2>
+     <!-- Container for the image gallery -->
+<div class="container">
+
+  <!-- Full-width images with number text -->
+  <div class="mySlides">
+    <div class="numbertext">1 / 8</div>
+      <img src="brick/jack-01.JPG" style="margin-left: 275px;margin-right: auto;">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 8</div>
+      <img src="brick/jack-03.JPG" style="margin-left: 275px;margin-right: auto;">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 8</div>
+      <img src="brick/jack-04.JPG" style="margin-left: 275px;margin-right: auto;">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">4 /8</div>
+      <img src="brick/jack-05.JPG" style="margin-left: 275px;margin-right: auto;">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 8</div>
+      <img src="brick/jack-06.JPG" style="margin-left: 275px;margin-right: auto;">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">6 /8</div>
+      <img src="brick/jack-07.JPG" style="margin-left: 275px;margin-right: auto;">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">7 /8</div>
+      <img src="brick/jack-08.JPG" style="margin-left: 275px;margin-right: auto;">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">8 /8</div>
+      <img src="brick/jack-09.JPG" style="margin-left: 275px;margin-right: auto;">
+  </div>
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+  <!-- Image text -->
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <!-- Thumbnail images -->
   <div class="row">
     <div class="column">
-      <img src="images/brick/jack-01.JPG" alt="brick sculpture" style="width: 100%;">
-    </div> 
-    <div class="column">
-      <img src="images/brick/jack-03.JPG" alt="brick sculpture" style="width: 100%;">
+      <img class="demo cursor" src="brick/jack-01.JPG" style="width:100%" onclick="currentSlide(1)" alt="Jack Wall 1">
     </div>
-  </div> 
-<hr>
-  <div class="row">
     <div class="column">
-      <img src="images/brick/jack-04.JPG" alt="brick sculpture" style="width: 100%;">
-    </div> 
-    <div class="column">
-      <img src="images/brick/jack-05.JPG" alt="brick sculpture" style="width: 100%;">
+      <img class="demo cursor" src="brick/jack-03.JPG" style="width:100%" onclick="currentSlide(2)" alt="Jack Wall 2">
     </div>
-  </div>   
-<hr>
-  <div class="row">
     <div class="column">
-      <img src="images/brick/jack-06.JPG" alt="brick sculpture" style="width: 100%;">
-    </div> 
-    <div class="column">
-      <img src="images/brick/jack-07.JPG" alt="brick sculpture" style="width: 100%;">
+      <img class="demo cursor" src="brick/jack-04.JPG" style="width:100%" onclick="currentSlide(3)" alt="Jack Wall 3">
     </div>
-  </div> 
-<hr>
-  <div class="row">
     <div class="column">
-      <img src="images/brick/jack-08.JPG" alt="brick sculpture" style="width: 100%;">
-    </div> 
-    <div class="column">
-      <img src="images/brick/jack-09.JPG" alt="brick sculpture" style="width: 100%;">
+      <img class="demo cursor" src="brick/jack-05.JPG" style="width:100%" onclick="currentSlide(4)" alt="Jack Wall 4">
     </div>
-  </div>  
-<hr> 
+    <div class="column">
+      <img class="demo cursor" src="brick/jack-06.JPG" style="width:100%" onclick="currentSlide(5)" alt="Jack Wall 5">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="brick/jack-07.JPG" style="width:100%" onclick="currentSlide(6)" alt="Jack Wall 6">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="brick/jack-08.JPG" style="width:100%" onclick="currentSlide(6)" alt="Jack Wall 7">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="brick/jack-09.JPG" style="width:100%" onclick="currentSlide(6)" alt="Jack Wall 8">
+    </div>
+  </div>
+</div> 
+
+<script>
+    var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+} 
+</script>
 </article>
 <article>
   <h2>The Library Building at Southwest Virginia Community College</h2>
