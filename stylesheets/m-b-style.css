@@ -48,23 +48,23 @@ ul#nav li a {
     font-weight: bold;
     display: inline-block;
     padding: 5px 21px;
-    background: #009900;
+    background: #00e600;
     color: #000;
     float: none;
     text-align: center;
-    border-top: 2px solid #00e600;
+    border-top: 2px solid #33ff33;
     border-right: 2px solid #004d00;
     border-bottom: 2px solid #004d00;
-    border-left: 2px solid #00e600;
+    border-left: 2px solid #33ff33;
 }
 
 ul#nav li a:hover {
     background: #80ff80;
     color: #000;
-    border-top: 2px solid #33ff33;
+    border-top: 2px solid #00cc00;
     border-right: 2px solid #b3ffb3;
     border-bottom: 2px solid #b3ffb3;
-    border-left: 2px solid #33ff33;
+    border-left: 2px solid #00cc00;
 }
 
  #myBtn {
