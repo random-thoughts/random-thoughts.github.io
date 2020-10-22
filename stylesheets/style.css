@@ -7,7 +7,7 @@ body {
 	width: auto;
 	margin: 0 auto;
 	padding: 20px 0;
-	background: #3d3331;
+	background: #000000;
 }
 
 ul#nav {
@@ -28,23 +28,23 @@ ul#nav li a {
 	text-decoration: none;
 	display: inline-block;
 	padding: 5px 21px;
-	background: #5F3222;
+	background: #cc00cc;
 	color: #eee;
 	float: none;
 	text-align: center;
-	border-top: 2px solid #815444;
-	border-right: 2px solid #3d1000;
-	border-bottom: 2px solid #3d1000;
-	border-left: 2px solid #815444;
+	border-top: 2px solid #ff00ff;
+	border-right: 2px solid #990099;
+	border-bottom: 2px solid #990099;
+	border-left: 2px solid #ff00ff;
 }
 
 ul#nav li a:hover {
-	background: #a37666;
+	background: #ff80ff;
 	color: #000;
-	border-top: 2px solid #815444;
-	border-right: 2px solid #c59888;
-	border-bottom: 2px solid #c59888;
-	border-left: 2px solid #815444;
+	border-top: 2px solid #ff4dff;
+	border-right: 2px solid #ffb3ff;
+	border-bottom: 2px solid #ffb3ff;
+	border-left: 2px solid #ff4dff;
 }
 
 
