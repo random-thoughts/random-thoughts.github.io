@@ -7,7 +7,6 @@ h1 {
     color: #99ff66;
     background-color: black;
     text-align: center;
-    font-size: medium;
 }
 
 h2 {
@@ -46,6 +45,7 @@ ul#nav li {
 
 ul#nav li a {
     text-decoration: none;
+    font-weight: bold;
     display: inline-block;
     padding: 5px 21px;
     background: #009900;
