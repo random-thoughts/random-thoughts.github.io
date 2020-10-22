@@ -112,8 +112,10 @@ figcaption {
 
 h1 {
      color: #99ff66;
-     background-color: black;
-     text-align: center;
+	 background-color: black;
+	 text-align: center;
+	 font-size: medium;
+	 
 }
 
 h2 {
