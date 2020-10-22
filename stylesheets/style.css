@@ -28,23 +28,23 @@ ul#nav li a {
 	text-decoration: none;
 	display: inline-block;
 	padding: 5px 21px;
-	background: #cc00cc;
+	background: #009900;
 	color: #eee;
 	float: none;
 	text-align: center;
-	border-top: 2px solid #ff00ff;
-	border-right: 2px solid #990099;
-	border-bottom: 2px solid #990099;
-	border-left: 2px solid #ff00ff;
+	border-top: 2px solid #00e600;
+	border-right: 2px solid #004d00;
+	border-bottom: 2px solid #004d00;
+	border-left: 2px solid #00e600;
 }
 
 ul#nav li a:hover {
-	background: #ff80ff;
+	background: #80ff80;
 	color: #000;
-	border-top: 2px solid #ff4dff;
-	border-right: 2px solid #ffb3ff;
-	border-bottom: 2px solid #ffb3ff;
-	border-left: 2px solid #ff4dff;
+	border-top: 2px solid #33ff33;
+	border-right: 2px solid #b3ffb3;
+	border-bottom: 2px solid #b3ffb3;
+	border-left: 2px solid #33ff33;
 }
 
 
