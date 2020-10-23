@@ -26,7 +26,6 @@ ul#nav li {
 
 ul#nav li a {
 	text-decoration: none;
-	font-weight: bold;
 	display: inline-block;
 	padding: 5px 21px;
 	background: #00e600;
