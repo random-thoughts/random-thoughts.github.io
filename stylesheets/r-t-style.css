@@ -84,7 +84,7 @@ ul#nav li a:hover {
      /* Stay on top */
      top:250px;
      /* Stay at the top */
-     left: 0;
+     left: 20px;
      background-color:#0099ff;
      /* Black */
      overflow-x: hidden;
