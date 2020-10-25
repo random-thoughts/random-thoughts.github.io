@@ -74,7 +74,7 @@ ul#nav li a:hover {
 
  /* The sidebar menu */
  .sidenav {
-     height: 100%;
+     height: auto;
      /* Full-height: remove this if you want "auto" height */
      width: 100px;
      /* Set the width of the sidebar */
@@ -82,7 +82,7 @@ ul#nav li a:hover {
      /* Fixed Sidebar (stay in place on scroll) */
      z-index: 1;
      /* Stay on top */
-     top:0px;
+     top:200px;
      /* Stay at the top */
      left: 0px;
      background-color:#0099ff;
