@@ -103,8 +103,7 @@ ul#nav li a:hover {
 
  /* Style page content */
  .main {
-    display: inline-block;
-     margin-left: 20%;
+        margin-left: 20%;
      /* Same as the width of the sidebar */
      padding: 0px 10px;
  }
@@ -140,11 +139,16 @@ ul#nav li a:hover {
     background-color: #555;
 }
 
-p {
+.p {
+    display: inline-block;
     font-size: 20px;
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 } 
+
+.article{
+    display: inline-block;
+}
 
 aside {
     width: 30%;
@@ -156,6 +160,8 @@ aside {
     font-size: large;
     background-color: rgb(171, 240, 150);
 }
+
+
 
 footer {
     color: black;
