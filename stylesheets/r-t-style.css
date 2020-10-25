@@ -103,7 +103,7 @@ ul#nav li a:hover {
 
  /* Style page content */
  .main {
-     display: inline-block;
+    display: inline-block;
      margin-left: 20%;
      /* Same as the width of the sidebar */
      padding: 0px 10px;
