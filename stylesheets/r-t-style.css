@@ -1,6 +1,5 @@
 body {
-    display: inline-block;
-    background-color: rgb(186, 234, 236);
+   background-color: rgb(186, 234, 236);
    background-image: -moz-linear-gradient(rgb(186, 234, 236)rgb(78, 89, 194));
 }
 
@@ -104,6 +103,7 @@ ul#nav li a:hover {
 
  /* Style page content */
  .main {
+     display: inline-block;
      margin-left: 20%;
      /* Same as the width of the sidebar */
      padding: 0px 10px;
