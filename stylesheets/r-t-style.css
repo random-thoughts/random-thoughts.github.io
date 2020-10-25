@@ -1,4 +1,5 @@
 body {
+    display: inline-block;
     background-color: rgb(186, 234, 236);
    background-image: -moz-linear-gradient(rgb(186, 234, 236)rgb(78, 89, 194));
 }
@@ -74,7 +75,8 @@ ul#nav li a:hover {
 
  /* The sidebar menu */
  .sidenav {
-     height: auto;
+     display: inline-block;
+     height: 100%;
      /* Full-height: remove this if you want "auto" height */
      width: 100px;
      /* Set the width of the sidebar */
