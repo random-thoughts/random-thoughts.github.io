@@ -72,53 +72,7 @@ ul#nav li a:hover {
     border-left: 2px solid #00cc00;
 }
 
- /* The sidebar menu */
- .sidenav {
-     box-sizing: border-box;
-     border: 1px solid black;
-     display: inline-block;
-     height: 100vh;
-     width: 20%;
-     position: fixed;
-     background-color:#0099ff;
-     overflow-x: auto;
-          
-     
- }
-
- /* The navigation menu links */
- .sidenav a {
-     padding: 6px 8px 6px 16px;
-     text-decoration: none;
-     font-size: 15px;
-     color: black;
-     display: block;
-    
- }
-
- /* When you mouse over the navigation links, change their color */
- .sidenav a:hover {
-     color: #f1f1f1;
- }
-
- /* Style page content */
- .main {
-        margin-left: 20%;
-     /* Same as the width of the sidebar */
-     padding: 0px 10px;
- }
-
- /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
- @media screen and (max-height: 450px) {
-     .sidenav {
-         padding-top: 15px;
-     }
-
-     .sidenav a {
-         font-size: 18px;
-     }
- }
-
+ 
 #myBtn {
     display: none;
     position: fixed;
@@ -140,14 +94,11 @@ ul#nav li a:hover {
 }
 
 .p {
-    display: inline-block;
     font-size: 20px;
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 } 
 
-.article{
-    display: inline-block;
 }
 
 aside {
@@ -168,8 +119,5 @@ footer {
     background-color: rgb(11, 218, 245);
     font-size: medium;
     text-align: center;
-    
-
-
 }
 
