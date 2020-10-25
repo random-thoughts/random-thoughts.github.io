@@ -82,7 +82,7 @@ ul#nav li a:hover {
      /* Fixed Sidebar (stay in place on scroll) */
      z-index: -1;
      /* Stay on top */
-     top: 150px;
+     top: 50px;
      /* Stay at the top */
      left: 0px;
      background-color:#0099ff;
@@ -98,7 +98,7 @@ ul#nav li a:hover {
      padding: 6px 8px 6px 16px;
      text-decoration: none;
      font-size: 15px;
-     color: black;
+     color: rgb(124, 248, 8);
      display: block;
  }
 
