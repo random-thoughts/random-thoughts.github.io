@@ -23,6 +23,10 @@ h3 {
     text-align: center;
 }
 
+img{
+    float: left;
+}
+
 #nav-wrapper {
     width: auto;
     margin: 0 auto;
