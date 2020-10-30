@@ -137,11 +137,12 @@ aside {
     width: 30%;
     padding-left: 1vw;
     margin-left: 1vw;
+    color: white;
     float: right;
     font-style: normal;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 1vh;
-    background-color: rgb(171, 240, 150);
+    background-color: rgb(11, 34, 4);
 }
 
 /* The side navigation menu 
