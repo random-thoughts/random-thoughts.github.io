@@ -37,7 +37,7 @@ img{
 
 ul#nav {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 14px;
+    font-size: 1vh;
     list-style: none;
     margin: 0 auto;
     padding: 0;
@@ -52,7 +52,7 @@ ul#nav li {
 ul#nav li a {
     text-decoration: none;
     display: inline-block;
-    padding: 5px 21px;
+    padding: 1vw 2vw;
     background: #00e600;
     color: #000;
     float: none;
@@ -72,7 +72,8 @@ ul#nav li a:hover {
     border-left: 2px solid #00cc00;
 }
 
-/*#nav-wrapper2 {
+#nav-wrapper2 {
+    position: fixed;
     width: auto;
     margin: 0 auto;
     padding: 0%;
@@ -86,7 +87,7 @@ ul#nav2 li {
 ul#nav2 li a {
     text-decoration: none;
     display: inline-block;
-    padding: 5px 21px;
+    padding: 1vw 2vw;
     background: #00e600;
     color: #000;
     float: none;
@@ -104,7 +105,7 @@ ul#nav2 li a:hover {
     border-right: 2px solid #b3ffb3;
     border-bottom: 2px solid #b3ffb3;
     border-left: 2px solid #00cc00;
-}*/
+}
 
 #myBtn {
     display: none;
@@ -127,23 +128,23 @@ ul#nav2 li a:hover {
 }
 
 p {
-    font-size: 20px;
+    font-size: 1vh;
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
 aside {
     width: 30%;
-    padding-left: 15px;
-    margin-left: 15px;
+    padding-left: 1vw;
+    margin-left: 1vw;
     float: right;
     font-style: normal;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: large;
+    font-size: 1vh;
     background-color: rgb(171, 240, 150);
 }
 
-/* The side navigation menu */
+/* The side navigation menu 
 .sidebar {
     margin: 0;
     padding: 0;
@@ -154,7 +155,7 @@ aside {
     overflow: auto;
 }
 
-/* Sidebar links */
+/* Sidebar links 
 .sidebar a {
     display: block;
     color: black;
@@ -163,25 +164,25 @@ aside {
     text-decoration: none;
 }
 
-/* Active/current link */
+/* Active/current link 
 .sidebar a.active {
     background-color: #4CAF50;
     color: white;
 }
 
-/* Links on mouse-over */
+/* Links on mouse-over
 .sidebar a:hover:not(.active) {
     background-color: #555;
     color: white;
 }
 
-/* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+/* Page content. The value of the margin-left property should match the value of the sidebar's width property 
 div.content {
     margin-left: 225px;
     padding: 1px;
     height: 2000vh;
     width: 80%;
-}
+}*/
 
 /* On screens that are less than 700px wide, make the sidebar into a topbar */
 @media screen and (max-width: 700px) {
