@@ -44,7 +44,7 @@ img{
     background: #0099ff;
 }
 
-ul.navbar-nav {
+ul {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     
     list-style: none;
@@ -54,14 +54,14 @@ ul.navbar-nav {
     overflow: auto;
 }
 
-li .nav-item {
+li {
     display: inline;
 }
 
-li a .nav-link {
+li a {
     text-decoration: none;
     display: inline-block;
-    padding: 1vw 2vw;
+    padding: 0;
     background: #00e600;
     color: #000;
     float: none;
@@ -81,6 +81,7 @@ li a .nav-link {
     border-left: 2px solid #00cc00;
 }
 
+/*
 #nav-wrapper2 {
     position: fixed;
     width: auto;
@@ -114,7 +115,7 @@ ul#nav2 li a:hover {
     border-right: 2px solid #b3ffb3;
     border-bottom: 2px solid #b3ffb3;
     border-left: 2px solid #00cc00;
-}
+}*/
 
 #myBtn {
     display: none;
