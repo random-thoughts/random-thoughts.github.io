@@ -11,12 +11,14 @@ body {
 
 
 h1 {
+    font-family: 'Times New Roman', Times, serif;
     color: #99ff66;
     background-color: black;
     text-align: center;
 }
 
 h2 {
+    font-family: 'Times New Roman', Times, serif;
     color: rgb(177, 241, 103);
     background-color: #000;
     text-align: center;
@@ -24,6 +26,7 @@ h2 {
 
 
 h3 {
+    font-family: 'Times New Roman', Times, serif;
     color: rgb(239, 243, 12);
     background-color: black;
     text-align: center;
