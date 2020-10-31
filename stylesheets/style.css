@@ -1,3 +1,8 @@
+html{
+  color: #000;
+  font-size: 18px;
+}
+
 body {
     background-color: rgb(186, 234, 236);
 
@@ -12,7 +17,6 @@ navbar {
 
 ul {
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
-	font-size: 14px;
 	list-style: none;
 	margin: 0 auto;
 	padding: 0;
@@ -111,19 +115,22 @@ figcaption {
 
 
 h1 {
-     color: #99ff66;
-	 background-color: black;
-	 text-align: center;
+	font-family: 'Times New Roman', Times, serif;
+    color: #99ff66;
+	background-color: black;
+	text-align: center;
 		 
 }
 
 h2 {
+	font-family: 'Times New Roman', Times, serif;
 	color: rgb(177, 241, 103);
 	background-color: #000;
 	text-align: center;
 }
 
 h3 {
+	font-family: 'Times New Roman', Times, serif;
     color: rgb(239, 243, 12);
     background-color: black;
     text-align: center;
@@ -131,7 +138,6 @@ h3 {
 
 
 p {
-	font-size: 20px;
 	text-align: center;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
