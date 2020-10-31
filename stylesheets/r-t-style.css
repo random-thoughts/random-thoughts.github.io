@@ -46,7 +46,6 @@ img{
 
 ul {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
     list-style: none;
     margin: 0 auto;
     padding: 0;
@@ -138,8 +137,7 @@ ul#nav2 li a:hover {
     background-color: #555;
 }
 
-p {
-    
+p {    
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
