@@ -37,14 +37,14 @@ img{
     margin: 0.5vw;
 }
 
-#nav-wrapper {
+.navbar {
     width: auto;
     margin: 0 auto;
     padding: 20px 0;
     background: #0099ff;
 }
 
-ul#nav {
+ul.navbar-nav {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     
     list-style: none;
@@ -54,11 +54,11 @@ ul#nav {
     overflow: auto;
 }
 
-ul#nav li {
+li .nav-item {
     display: inline;
 }
 
-ul#nav li a {
+li a .nav-link {
     text-decoration: none;
     display: inline-block;
     padding: 1vw 2vw;
@@ -72,7 +72,7 @@ ul#nav li a {
     border-left: 2px solid #33ff33;
 }
 
-ul#nav li a:hover {
+ li a:hover {
     background: #80ff80;
     color: #000;
     border-top: 2px solid #00cc00;
