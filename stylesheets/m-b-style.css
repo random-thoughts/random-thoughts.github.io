@@ -1,15 +1,22 @@
+html{
+    color: #000;
+    font-size: 18px;
+}
+
 body {
     background-color: rgb(186, 234, 236);
    
 }
 
 h1 {
+    font-family: 'Times New Roman', Times, serif;
     color: #99ff66;
     background-color: black;
     text-align: center;
 }
 
 h2 {
+    font-family: 'Times New Roman', Times, serif;
     color: rgb(177, 241, 103);
     background-color: #000;
     text-align: center;
@@ -17,19 +24,20 @@ h2 {
 
 
 h3 {
+    font-family: 'Times New Roman', Times, serif;
     color: rgb(239, 243, 12);
     background-color: black;
     text-align: center;
 }
 
-#nav-wrapper{
+navbar {
 width: auto;
 margin:0 auto;
 padding: 20px 0;
 background: #0099ff;
 }
 
-ul#nav {
+ul {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 14px;
     list-style: none;
@@ -39,11 +47,11 @@ ul#nav {
     overflow: auto;
 }
 
-ul#nav li {
+li {
     display: inline;
 }
 
-ul#nav li a {
+li a {
     text-decoration: none;
     display: inline-block;
     padding: 5px 21px;
@@ -57,7 +65,7 @@ ul#nav li a {
     border-left: 2px solid #33ff33;
 }
 
-ul#nav li a:hover {
+li a:hover {
     background: #80ff80;
     color: #000;
     border-top: 2px solid #00cc00;
