@@ -29,6 +29,7 @@ ul {
 }
 
  li a {
+	font-size: small;
 	text-decoration: none;
 	display: inline-block;
 	padding: 5px 21px;
