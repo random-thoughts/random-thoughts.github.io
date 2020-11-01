@@ -52,15 +52,12 @@ ul {
 	border-left: 2px solid #00cc00;
 }
 
-.dropdown {
-	background-color: #0099ff;
-}
 
 button {
 	font-size: small;
 	text-decoration: none;
 	display: inline-block;
-	padding: 5px 550px;
+	padding: 5px 21px;
 	background: #00e600;
 	color: #000;
 	float: none;
@@ -71,9 +68,9 @@ button {
 	border-left: 2px solid #33ff33;
 }
 
-.dropdown-menu{
+.dropdown-menu {
 	display: block;
-	float: right;
+	background-color: #0099ff;
 	
 }
 
@@ -84,7 +81,7 @@ button {
 	padding: 5px 21px;
 	background: #00e600;
 	color: #000;
-	float: right;
+	float: none;
 	text-align: center;
 	border-top: 2px solid #33ff33;
 	border-right: 2px solid #004d00;
