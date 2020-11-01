@@ -173,11 +173,11 @@ p {
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
-/*.row {
-	display: flex;
+.row {
+	display: inline-block;
 }
 
-.column {
+/*.column {
 	flex: 45%;
 	padding: 5px;
 }*/
