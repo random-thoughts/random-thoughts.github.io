@@ -32,10 +32,10 @@ h3 {
     text-align: center;
 }
 
-img{
+/*img{
     float: left;
     margin: 0.5vw;
-}
+}*/
 
 .navbar {
     width: auto;
@@ -81,7 +81,7 @@ li a {
     border-left: 2px solid #00cc00;
 }
 
-button {
+.btn {
     font-size: small;
     text-decoration: none;
     display: inline-block;
@@ -156,12 +156,11 @@ aside {
     width: 30%;
     padding-left: 1vw;
     margin-left: 1vw;
-    color: white;
+    color:black;
     float: right;
     font-style: normal;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    
-    background-color: rgb(11, 34, 4);
+    background-color: rgb(212, 245, 201);
 }
 
 /* The side navigation menu 
