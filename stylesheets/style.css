@@ -52,53 +52,6 @@ ul {
 	border-left: 2px solid #00cc00;
 }
 
-
-/*button {
-	font-size: small;
-	text-decoration: none;
-	display: inline-block;
-	padding: 5px 21px;
-	background: #00e600;
-	color: #000;
-	float: none;
-	text-align: center;
-	border-top: 2px solid #33ff33;
-	border-right: 2px solid #004d00;
-	border-bottom: 2px solid #004d00;
-	border-left: 2px solid #33ff33;
-}
-
-.dropdown-menu {
-	display: block;
-	background-color: #0099ff;
-	
-}
-
-.dropdown-item {
-	font-size: small;
-	text-decoration: none;
-	display: inline-block;
-	padding: 5px 21px;
-	background: #00e600;
-	color: #000;
-	float: none;
-	text-align: center;
-	border-top: 2px solid #33ff33;
-	border-right: 2px solid #004d00;
-	border-bottom: 2px solid #004d00;
-	border-left: 2px solid #33ff33;
-
-}
-
-.dropdown-item :hover {
-  background: #80ff80;
-  color: #000;
-  border-top: 2px solid #00cc00;
-  border-right: 2px solid #b3ffb3;
-  border-bottom: 2px solid #b3ffb3;
-  border-left: 2px solid #00cc00;
-}*/
-
  #myBtn {
  	display: none;
  	/* Hidden by default */
@@ -133,11 +86,6 @@ ul {
  	/* Add a dark-grey background on hover */
  }
 
-/*img {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-}*/
 
 hr {
 	color: #000;
@@ -193,15 +141,7 @@ p {
 	font-family: 'Times New Roman', Times, serif;
 }
 
-/*.row {
-	display: inline-block;
-}*/
 
-/*.column {
-	flex: 45%;
-	padding: 5px;
-}*/
-	
    
 
 footer {
