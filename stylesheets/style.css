@@ -87,6 +87,13 @@ ul {
  	/* Add a dark-grey background on hover */
  }
 
+a {
+	color: #1100ff;
+}
+
+a:hover {
+	color: #918beb;
+}
 
 hr {
 	color: #000;
