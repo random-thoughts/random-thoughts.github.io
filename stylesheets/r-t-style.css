@@ -81,23 +81,11 @@ li a {
     border-left: 2px solid #00cc00;
 }
 
-/*
-#nav-wrapper2 {
-    position: fixed;
-    width: auto;
-    margin: 0 auto;
-    padding: 0%;
-    background-color: #0099ff;
-}
-
-ul#nav2 li {
-    display: block;
-}
-
-ul#nav2 li a {
+button {
+    font-size: small;
     text-decoration: none;
-    display: inline;
-    padding: 1vw 2vw;
+    display: inline-block;
+    padding: 5px 21px;
     background: #00e600;
     color: #000;
     float: none;
@@ -108,14 +96,36 @@ ul#nav2 li a {
     border-left: 2px solid #33ff33;
 }
 
-ul#nav2 li a:hover {
+.dropdown-menu {
+    display: block;
+    background-color: #0099ff;
+
+}
+
+.dropdown-item {
+    font-size: small;
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 21px;
+    background: #00e600;
+    color: #000;
+    float: none;
+    text-align: center;
+    border-top: 2px solid #33ff33;
+    border-right: 2px solid #004d00;
+    border-bottom: 2px solid #004d00;
+    border-left: 2px solid #33ff33;
+
+}
+
+.dropdown-item :hover {
     background: #80ff80;
     color: #000;
     border-top: 2px solid #00cc00;
     border-right: 2px solid #b3ffb3;
     border-bottom: 2px solid #b3ffb3;
     border-left: 2px solid #00cc00;
-}*/
+}
 
 #myBtn {
     display: none;
