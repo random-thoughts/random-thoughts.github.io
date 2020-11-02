@@ -103,6 +103,10 @@ li a {
     background-color: #555;
 }
 
+a {
+    color: #1100ff;
+}
+
 p {    
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
