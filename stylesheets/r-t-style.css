@@ -127,70 +127,38 @@ aside {
     background-color: rgb(108, 241, 64);
 }
 
-/* The side navigation menu 
-.sidebar {
-    margin: 0;
-    padding: 0;
-    width: 200px;
-    background-color: #dfb2f1;
-    position: fixed;
-    height: 100%;
-    overflow: auto;
-}
-
-/* Sidebar links 
-.sidebar a {
+.verticle-menu {
     display: block;
-    color: black;
-    font-size: large;
-    padding: 5px;
+    float: left;
+    width: 200px;
+    height: 100px;
+    overflow-y: auto;
+}
+
+.verticle-menu a {
+    font-size: medium;
+    font-weight: 600;
     text-decoration: none;
+    display: block;
+    padding: 0;
+    background: #8ff18f;
+    color: #000;
+    float: none;
+    text-align: center;
+    border-top: 2px solid #33ff33;
+    border-right: 2px solid #004d00;
+    border-bottom: 2px solid #004d00;
+    border-left: 2px solid #33ff33;
 }
 
-/* Active/current link 
-.sidebar a.active {
-    background-color: #4CAF50;
-    color: white;
+.verticle-menu a:hover {
+    background: #80ff80;
+    color: #000;
+    border-top: 2px solid #00cc00;
+    border-right: 2px solid #b3ffb3;
+    border-bottom: 2px solid #b3ffb3;
+    border-left: 2px solid #00cc00;
 }
-
-/* Links on mouse-over
-.sidebar a:hover:not(.active) {
-    background-color: #555;
-    color: white;
-}
-
-/* Page content. The value of the margin-left property should match the value of the sidebar's width property 
-div.content {
-    margin-left: 225px;
-    padding: 1px;
-    height: 2000vh;
-    width: 80%;
-}*/
-
-/* On screens that are less than 700px wide, make the sidebar into a topbar 
-@media screen and (max-width: 700px) {
-    .sidebar {
-        width: 100%;
-        height: auto;
-        position: relative;
-    }
-
-    .sidebar a {
-        float: left;
-    }
-
-    div.content {
-        margin-left: 0;
-    }
-}
-
-/* On screens that are less than 400px, display the bar vertically, instead of horizontally 
-@media screen and (max-width: 400px) {
-    .sidebar a {
-        text-align: center;
-        float: none;
-    }
-}*/
 
 
 
