@@ -130,9 +130,12 @@ aside {
 .verticle-menu {
     display: block;
     float: left;
-    width: 200px;
-    height: 100px;
+    width: 15vw;
+    height: 20vh;
     overflow-y: auto;
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .verticle-menu a {
