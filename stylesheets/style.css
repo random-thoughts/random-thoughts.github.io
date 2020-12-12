@@ -148,7 +148,11 @@ figure {
 	 margin: auto;
 
 }
-	
+
+.flex-container {
+	display: flex;
+	justify-content: center;
+}
 
 figcaption {
 	
