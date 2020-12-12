@@ -141,14 +141,14 @@ hr {
 	color: #000;
 }
 
-figure {
+/*figure {
 	
 	border: 2px #0c0c0c solid;
 	padding: 4px;
 	 margin: auto;
 
 }
-
+*/
 .flex-container {
 	display: flex;
 	justify-content: center;
@@ -191,8 +191,9 @@ h3 {
 
 
 p {
-	text-align: left;
+	text-align: left justify;
 	font-family: 'Times New Roman', Times, serif;
+	font-weight: 200;
 }
 
 
