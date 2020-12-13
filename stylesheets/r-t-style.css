@@ -43,52 +43,7 @@ img{
     float: left;
     margin: 0.5vw;
 }
-/*
-.navbar {
-   
-    width: auto;
-    margin: 0 auto;
-    padding: 5px 0;
-    background: #0099ff;
-}
 
-ul {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    list-style: none;
-    margin: 0 auto;
-    padding: 0;
-    width: auto;
-    overflow: auto;
-}
-
-li {
-    display: inline;
-}
-
-li a {
-    font-size: small;
-    text-decoration: none;
-    display: inline-block;
-    padding: 0;
-    background: #00e600;
-    color: #000;
-    float: none;
-    text-align: center;
-    border-top: 2px solid #33ff33;
-    border-right: 2px solid #004d00;
-    border-bottom: 2px solid #004d00;
-    border-left: 2px solid #33ff33;
-}
-
- li a:hover {
-    background: #80ff80;
-    color: #000;
-    border-top: 2px solid #00cc00;
-    border-right: 2px solid #b3ffb3;
-    border-bottom: 2px solid #b3ffb3;
-    border-left: 2px solid #00cc00;
-}
-*/
 
  /* Style the navigation menu */
  .topnav {
@@ -96,6 +51,33 @@ li a {
      background-color: #333;
      position: relative;
  }
+
+ .topnav .search-container {
+     float: right;
+ }
+
+ .topnav input[type=text] {
+     padding: 6px;
+     margin-top: 8px;
+     font-size: 17px;
+     border: none;
+ }
+
+ .topnav .search-container button {
+     float: right;
+     padding: 6px;
+     margin-top: 8px;
+     margin-right: 16px;
+     background: #ddd;
+     font-size: 17px;
+     border: none;
+     cursor: pointer;
+ }
+
+ .topnav .search-container button:hover {
+     background: #ccc;
+ }
+
 
  /* Hide the links inside the navigation menu (except for logo/home) */
  .topnav #myLinks {
@@ -128,7 +110,7 @@ li a {
 
  /* Style the active link (or home/logo) */
  .active {
-     background-color: #4CAF50;
+     background-color: #78f1f5;
      color: white;
  }
 
