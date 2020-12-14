@@ -7,7 +7,9 @@ html{
 body {
     background-color: rgb(186, 234, 236);
     background-image: -moz-linear-gradient(rgb(186, 234, 236)rgb(78, 89, 194));
-}
+    background-image: -webkit-gradient(rgb(186, 234, 236) rgb(78, 89, 194));
+    background-image: -old -webkit-gradient(rgb(186, 234, 236) rgb(78, 89, 194));
+}   
 
 
 h1 {
@@ -94,7 +96,7 @@ img{
  }
 
  /* Style the hamburger menu */
- .topnav a.icon {
+ .topnav .icon {
      background: black;
      display: block;
      position: absolute;
