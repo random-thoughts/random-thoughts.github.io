@@ -30,7 +30,7 @@ body {
  }
 
  /* Style the hamburger menu */
- .topnav a.icon {
+ .topnav .icon {
  	background: black;
  	display: block;
  	position: absolute;
